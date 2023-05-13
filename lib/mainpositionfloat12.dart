@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainPositionfloat12());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class MainPositionfloat12 extends StatelessWidget {
+  const MainPositionfloat12({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

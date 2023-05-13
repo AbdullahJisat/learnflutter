@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 // import 'package:image_picker/image_picker.dart';
 
-void main() =>
-    runApp(ChangeNotifierProvider(create: (context) => Data(), child: MyApp()));
+void main() => runApp(
+    ChangeNotifierProvider(create: (context) => Data(), child: MainAgain()));
 
 // state management
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainAgain extends StatelessWidget {
+  const MainAgain({super.key});
 
   @override
   Widget build(BuildContext context) {

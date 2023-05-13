@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainListviewVertical9());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class MainListviewVertical9 extends StatelessWidget {
+  const MainListviewVertical9({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -24,13 +24,17 @@ class MyApp extends StatelessWidget {
                     width: 150,
                     color: Colors.deepPurple.shade400,
                   ),
-                  SizedBox(height: 10,),
+                  SizedBox(
+                    height: 10,
+                  ),
                   Container(
                     height: 200,
                     width: 150,
                     color: Colors.deepOrange,
                   ),
-                  SizedBox(height: 10,),
+                  SizedBox(
+                    height: 10,
+                  ),
                   Container(
                     height: 200,
                     width: 150,

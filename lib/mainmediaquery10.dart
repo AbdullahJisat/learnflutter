@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainMediaquery10());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class MainMediaquery10 extends StatelessWidget {
+  const MainMediaquery10({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
