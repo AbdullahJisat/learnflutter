@@ -4,17 +4,17 @@ import 'package:blog/pages/page3.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainPageView17());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class MainPageView17 extends StatefulWidget {
+  const MainPageView17({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<MainPageView17> createState() => _MainPageView17State();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MainPageView17State extends State<MainPageView17> {
   PageController _pageController = PageController(
     // show page 1 by 0
     initialPage: 0,

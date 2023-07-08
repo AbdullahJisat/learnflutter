@@ -16,7 +16,7 @@ class MainScrollHorizontal9 extends StatelessWidget {
             title: Text("Row"),
           ),
           body: SingleChildScrollView(
-          scrollDirection: Axis.horizontal,
+            scrollDirection: Axis.horizontal,
             child: Row(
               children: [
                 Container(

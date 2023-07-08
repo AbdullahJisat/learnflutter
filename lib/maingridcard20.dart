@@ -1,41 +1,13 @@
-// import 'package:flutter/material.dart';
-
-// // state management
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//       child: GridView.count(
-//         primary: false,
-//         padding: const EdgeInsets.all(20, 0),
-//         crossAxisCount: 2,
-//         crossAxisSpacing: 10.0,
-//         children: [
-//           List.generate(16, (index) => {
-//             return GridTile(
-//               child: Card(
-//                 color: Color((Random().nextDouble() * 0xFFFFFF).toInt() << 0).withOpacity(1.0).
-//                 ),
-//               ),
-//             ),
-//           }),
-//         ],
-//       ),
-//     );
-//   }
-// }
 import 'dart:math';
 
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainGridCard20());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainGridCard20 extends StatelessWidget {
+  const MainGridCard20({super.key});
 
   @override
   Widget build(BuildContext context) {

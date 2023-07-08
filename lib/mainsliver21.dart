@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainSliver21());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class MainSliver21 extends StatefulWidget {
+  const MainSliver21({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<MainSliver21> createState() => _MainSliver21State();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MainSliver21State extends State<MainSliver21> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

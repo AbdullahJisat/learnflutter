@@ -1,29 +1,29 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const Main());
+  runApp(const MainState24());
 }
 
 // state management
-class Main extends StatelessWidget {
-  const Main({super.key});
+class MainState24 extends StatelessWidget {
+  const MainState24({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MainApp(),
+      home: MainState24App(),
     );
   }
 }
 
-class MainApp extends StatefulWidget {
-  const MainApp({super.key});
+class MainState24App extends StatefulWidget {
+  const MainState24App({super.key});
 
   @override
-  State<MainApp> createState() => _MainAppState();
+  State<MainState24App> createState() => _MainState24AppState();
 }
 
-class _MainAppState extends State<MainApp> {
+class _MainState24AppState extends State<MainState24App> {
   int value = 0;
   Increment() {
     setState(() {

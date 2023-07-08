@@ -16,6 +16,8 @@ class MainListviewVertical9 extends StatelessWidget {
             title: Text("Row"),
           ),
           body: ListView(
+            shrinkWrap: true,
+            scrollDirection: Axis.vertical,
             children: [
               Column(
                 children: [

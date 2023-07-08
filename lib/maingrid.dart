@@ -4,11 +4,11 @@ import 'package:blog/maingridview15.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainGrid());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainGrid extends StatelessWidget {
+  const MainGrid({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -55,7 +55,7 @@ class My extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'hello',
+                          'MainGridView15',
                           style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.w500),
                         ),
@@ -68,6 +68,7 @@ class My extends StatelessWidget {
                 child: InkWell(
                   onTap: () {
                     print('1 was clicked');
+                    _navigateToNewScreen(context);
                   },
                   child: Card(
                     color:
@@ -78,7 +79,7 @@ class My extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'hello',
+                          'New Screen',
                           style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.w500),
                         ),
@@ -91,6 +92,7 @@ class My extends StatelessWidget {
                 child: InkWell(
                   onTap: () {
                     print('1 was clicked');
+                    _navigateToHomeScreen(context);
                   },
                   child: Card(
                     color:
@@ -101,7 +103,7 @@ class My extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'hello',
+                          'Home Screen',
                           style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.w500),
                         ),
@@ -166,6 +168,16 @@ class My extends StatelessWidget {
   void _navigateToNextScreen(BuildContext context) {
     Navigator.of(context)
         .push(MaterialPageRoute(builder: (context) => MainGridView15()));
+  }
+
+  void _navigateToNewScreen(BuildContext context) {
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (context) => NewScreen()));
+  }
+
+  void _navigateToHomeScreen(BuildContext context) {
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (context) => HomeScreen()));
   }
 }
 

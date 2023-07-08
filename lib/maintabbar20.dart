@@ -5,11 +5,11 @@ import 'package:blog/pages/tab4.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainTabbar20());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainTabbar20 extends StatelessWidget {
+  const MainTabbar20({super.key});
 
   @override
   Widget build(BuildContext context) {

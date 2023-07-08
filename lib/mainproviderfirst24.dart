@@ -4,12 +4,12 @@ import 'package:blog/recieveprovider24.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-void main() =>
-    runApp(ChangeNotifierProvider(create: (context) => Data(), child: MyApp()));
+void main() => runApp(ChangeNotifierProvider(
+    create: (context) => Data(), child: MainProviderFirst24()));
 
 // state management
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainProviderFirst24 extends StatelessWidget {
+  const MainProviderFirst24({super.key});
 
   @override
   Widget build(BuildContext context) {

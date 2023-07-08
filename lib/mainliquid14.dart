@@ -3,11 +3,11 @@ import 'package:liquid_swipe/liquid_swipe.dart';
 // import 'package:liquid_swipe/liquid_swipe.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainLiquid14());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class MainLiquid14 extends StatelessWidget {
+  const MainLiquid14({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     final pages = [

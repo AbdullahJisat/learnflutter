@@ -1,12 +1,12 @@
-import 'package:blog/second.dart';
+import 'package:blog/iconview.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainHero18());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainHero18 extends StatelessWidget {
+  const MainHero18({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class Home extends StatelessWidget {
             ),
             onTap: () {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Second()));
+                  context, MaterialPageRoute(builder: (context) => IconView()));
             },
           ),
         ),
